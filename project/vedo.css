@@ -1,0 +1,183 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: cursive;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("oinky.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;	  
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: purple;
+
+}
+ul li.profile a{
+	background-color: #fff;
+	color: purple;
+
+}
+.logo img{
+	position: absolute;
+	
+	float: left;
+	width: 250px;
+	left: 4%;
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+.title{
+	position: absolute;
+	top: 9%;
+	left:20%;
+	transform: translate(-50%,-50%);
+
+}
+.title h2{
+  color: #fff;
+  font-size: 200%;
+
+}
+.fon h2{
+
+	position: absolute;
+	left: 13%;
+	top: 30%;
+   color: #fff;
+  font-size: 400%;
+}
+.fon h3{
+	position: absolute;
+	left: 13%;
+	top: 41%;
+    color: #fff;
+    font-size: 350%;
+}
+.fon h1{
+	font: bold;
+	position: absolute;
+	left: 13%;
+	top: 50%;
+   color: #fff;
+  font-size: 400%;
+}
+.fon p{
+	font: bold;
+	position: absolute;
+	left: 25%;
+	top: 65%;
+   color: #fff;
+  font-size: 150%;
+}
+.button{
+	position: absolute;
+	top: 80%;
+	left: 45%;
+	transform: translate(-50%,-50%);
+}
+
+.btn{
+	border: 1px solid #fff;    
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+
+}
+
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+#boxes{
+	background-color: grey;
+	width: 1500px;
+    padding:70px 0;
+}
+
+.title-text{
+	position: absolute;
+	color: #fff;
+	left: 30%;
+	font-weight: bold;
+	font-size: 50px;
+}
+.f1 {
+  background-color: #000;
+  position: absolute;
+  top: 140%;
+  
+  text-align : center;
+  padding : 2em;
+  width  : 5em;
+  height : 4em;
+}
+.fx{
+	color: #fff;
+}
+
+
+
+#bo{
+  background-color: grey;
+	width: 1500px;
+    padding:70px 0;
+    margin: 20px;
+    height: 1500%;
+  }
+
+ 
+
+.box ul{
+	position:absolute; 
+	text-align: center;
+	left: 50%;
+	
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+.box ul li{
+	display: inline-block;
+	padding : 2em;
+  width  : 5em;
+  height : 4em;
+}
+
+.box ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;	  
+}
+.img{
+	width: 100px;
+	height: 100px;
+}

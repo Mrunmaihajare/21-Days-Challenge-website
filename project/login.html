@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="loginform.css">
+</head>
+<body>
+	<section class="header">
+		
+<video autoplay loop class="video-background" muted plays-inline>
+	<source src="video.mp4" type="video/mp4 ">
+</video>
+<div class="loginbox">
+	<img src="avat2.png" class="avt">
+	<h1>Login form</h1>
+	<form action="http://localhost/login/logindata.php" method="post"> 
+		<p>Username</p>
+		<input type="text" name="name" placeholder="Enter Username" autocomplete="off"><br>
+		<p>Email Id</p>
+        <input type="text" name="email" placeholder="Enter mail" autocomplete="off">
+		<p>Password</p>
+		<input type="password" name="password" placeholder="Enter password" autocomplete="off"><br>
+		<p>Age</p>
+		<input type="number" name="age" placeholder="Enter Age"><br>
+		<label for="gender">Gender:</label>
+        <select name="gender" id="gender">
+        <option value="volvo">Male</option>
+        <option value="saab">Female</option>
+        <option value="opel">Other</option>
+        </select><br>
+        <br>
+         <input type="submit" name="submit" value="Login">
+	</form>
+	</div>
+	
+</section>
+</body>
+</html>
